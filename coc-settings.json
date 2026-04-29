@@ -1,5 +1,14 @@
 {
-  "python.formatting.provider": "autopep8",
+  "python.formatting.provider": "black",
   "[python]": { "editor.formatOnSave": true },
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
   "inlayHint.enable": false,
+  "workspace.rootPatterns": [
+    ".git",
+    "setup.py",
+    "pyproject.toml",
+    "requirements.txt"
+  ],
+  "svelte.enable-ts-plugin": true
 }
