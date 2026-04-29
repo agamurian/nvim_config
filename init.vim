@@ -31,8 +31,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lua/plenary.nvim'
 
 "LLM
-Plug 'olimorris/codecompanion.nvim'
-Plug 'simo5/vimini'
+"Plug 'olimorris/codecompanion.nvim'
+"Plug 'simo5/vimini'
 
 Plug 'preservim/tagbar'
 Plug 'preservim/nerdcommenter'
